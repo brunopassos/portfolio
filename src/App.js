@@ -1,12 +1,12 @@
+import Home from "./pages/Home";
 
+import { Center } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
+    <Center bg={"primary.50"} w={"100vw"} h={"100vh"}>
+      <Home />
+    </Center>
   );
 }
 
