@@ -7,7 +7,7 @@ function Home() {
   return (
     <HomeContent>
       <Header />
-      {/* <MiddleContent>
+      <MiddleContent>
         <h3>Olá! Eu sou</h3>
         <h1>Bruno Passos</h1>
         <p>{`> Front-end Developer`}</p>
@@ -15,7 +15,7 @@ function Home() {
       <FooterContent>
         <h3>//veja meu perfil no GitHub:</h3>
         <p><span>const </span><span>gitHubLink</span> = <span>"https://github.com/brunopassos"</span></p>
-      </FooterContent> */}
+      </FooterContent>
     </HomeContent>
   );
 }
