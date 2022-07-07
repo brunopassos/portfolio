@@ -5,20 +5,18 @@ import { AiOutlineMenu } from "react-icons/ai";
 import MenuList from "../MenuList";
 
 function Header() {
-  function handleMenuOptions() {
-    console.log("click menu options");
-  }
-
   return (
-    <StyledNav>
-      <span>bruno-passos</span>
-      
-       <Button size={'lg'} bg={"none"} variant="link" onClick={() => handleMenuOptions()}>
-        <AiOutlineMenu />
-      </Button>
-
-      
-    </StyledNav>
+    <>
+      <StyledNav>
+        <div>
+          <span>bruno-passos</span>
+          <Button size={"lg"} bg={"none"} variant="link">
+            <AiOutlineMenu />
+          </Button>
+        </div>
+      </StyledNav>
+      <MenuList />
+    </>
   );
 }
 
