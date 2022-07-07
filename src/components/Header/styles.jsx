@@ -5,8 +5,8 @@ export const StyledNav = styled.nav`
    width: 100%;
    height: 50px;
    display: flex;
-   justify-content: space-between;
-   align-items: center;
+   flex-direction: column;
+   
 
    color: #607B96;
 
@@ -14,7 +14,6 @@ export const StyledNav = styled.nav`
 
    font-size: 1rem;
 
-   padding-left: 1.125rem;
 
 
     *{
@@ -22,10 +21,22 @@ export const StyledNav = styled.nav`
         padding: 0;
     }
 
+    span{
+        padding-left: 18px;
+    }
 
 
     ul{
         display: flex;
-    }    
+
+    }   
+    
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+    }
 
 `
