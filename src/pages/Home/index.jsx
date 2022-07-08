@@ -1,9 +1,9 @@
 import Header from "../../components/Header";
 
-
 import { HomeContent, MiddleContent, FooterContent } from "./styles";
 
-function Home() {
+function Home() {  
+
   return (
     <HomeContent>
       <Header />
