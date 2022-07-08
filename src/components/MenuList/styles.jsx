@@ -49,3 +49,7 @@ export const StyledFooterList = styled.ul`
     }
   
 `;
+
+export const StyledMenuContainer = styled.section`
+  
+`

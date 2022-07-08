@@ -1,9 +1,10 @@
-import { StyledMenuList, StyledFooterList, ListSection } from "./styles";
+import { StyledMenuList, StyledFooterList, ListSection, StyledMenuContainer } from "./styles";
 
 import { AiOutlineInstagram,  AiFillGithub } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs"
 
-function MenuList() {
+
+function MenuList({isOpen}) {
 
 
   function handleFacebookClick(){
@@ -20,8 +21,8 @@ function MenuList() {
 
 
   return (
-    <>
-      {/* <StyledMenuList>
+    <StyledMenuContainer style={{display: isOpen ? "block" : "none"}}>
+      <StyledMenuList >
           <li>_ola</li>
           <li>_sobre-mim</li>
           <li>_projetos</li>
@@ -34,8 +35,8 @@ function MenuList() {
           <li><button onClick={() => handleInstagramClick()}><BsFacebook/></button></li>
           <li><button onClick={() => handleGithubClick()}><AiFillGithub/></button></li>
         </StyledFooterList>
-      </ListSection> */}
-    </>
+      </ListSection>
+    </StyledMenuContainer>
   );
 }
 
