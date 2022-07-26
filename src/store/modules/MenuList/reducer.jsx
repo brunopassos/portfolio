@@ -1,6 +1,6 @@
 import { OPEN_MENU } from "./actionsTypes";
 
-const menuListReducer = (state = false, action) => {
+const menuListReducer = (state = true, action) => {
     switch (action.type) {
         case OPEN_MENU:
             return action.value;
