@@ -28,7 +28,6 @@ export const StyledNav = styled.nav`
 
     ul{
         display: flex;
-
     }   
     
     div{

@@ -1,7 +1,7 @@
 import { Button } from "@chakra-ui/react";
 import { StyledNav } from "./styles";
 
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import MenuList from "../MenuList";
 
 import { useDispatch } from "react-redux";
@@ -28,7 +28,7 @@ function Header() {
         <div>
           <span>bruno-passos</span>
           <Button onClick={() => handleIsOpen()} size={"lg"} bg={"none"} variant="link">
-            <AiOutlineMenu />
+            {!isOpen ? <AiOutlineMenu /> : <AiOutlineClose/>}            
           </Button>
         </div>
       </StyledNav>

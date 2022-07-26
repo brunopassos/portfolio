@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ListSection = styled.section`
-  height: 55vh;
+  
   display: flex;
   align-items: end;
   width: 100%;
@@ -22,7 +22,7 @@ export const StyledMenuList = styled.ul`
       font-weight: 400;
       font-size: 16px;
     }
-  
+ 
 `;
 
 export const StyledFooterList = styled.ul`

@@ -12,7 +12,7 @@ export const HomeContent = styled.section`
 `;
 
 export const MiddleContent = styled.section`
-  width: 90%;
+    width: 90%;
     height: 70%;
     display: flex;
     flex-direction: column;
